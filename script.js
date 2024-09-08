@@ -1,5 +1,5 @@
 
-playGame(5)
+//playGame(5)
 
 function playGame(roundAmnt){
     let humanScore = 0
