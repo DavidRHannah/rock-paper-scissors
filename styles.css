@@ -1,33 +1,50 @@
 body{
-    background-color: rgb(143, 143, 171);
+    background-color: rgb(201, 227, 238);
     text-align: center;
 }
-.container-column{
+
+.container-column {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.container-row {
+    display: flex;
+    gap: 10px;
+    padding:15px;
+    border: 1px solid rgb(160, 160, 160);
+    background-color: rgb(221, 221, 241);
+}
+
+#human-score {
+    font-size: x-large;
+    font-family:monospace;
+}
+#computer-score {
+    font-size: x-large;
+    font-family:monospace;
+}
+
 #output {
     display: inline-block;
-    background-color: white;
+    background-color: rgb(221, 221, 241);
     color: black;
-    width: 300px;
+    width: 400px;
     min-height: 30px;
-    border: 3px solid rgb(160, 160, 160);
+    border: 1px solid rgb(160, 160, 160);
     padding: 50px;
     margin: 20px;
 }
 
-#output span{
+#output span {
     background-color: inherit;
     font-size: x-large;
-    font-weight: bold;
+    font-family:monospace;
 }
 
-#input div {
-    display: flex;
-    justify-content: space-evenly;
-    column-gap: 10px;
-    
+#input button {
+    width: 70px;
+    border: solid, rgb(160, 160, 160), 1px;
+    background-color: rgb(221, 221, 241);
 }
